@@ -43,7 +43,6 @@ codeunit 50106 SubScriptionMgt
         BCEnvironmentName: Text;
         BCCompanyId: Text;
         Resource: Text;
-
         AzureADTenant: Codeunit "Azure AD Tenant";
     begin
         BCEnvironmentName := BCEnvironmentNameTxt;
